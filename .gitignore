@@ -37,6 +37,9 @@ dist
 # vercel
 .vercel
 
+# sanity
+**/.sanity/runtime
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
