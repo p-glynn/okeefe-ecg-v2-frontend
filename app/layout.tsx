@@ -1,5 +1,7 @@
+import '@/app/ui/global.css';
+
 import { Metadata } from 'next';
-import { inter } from '@/app/ui/fonts';
+import { robotoFlex } from '@/app/ui/fonts';
 
 export const metadata: Metadata = {
   title: "O'Keefe ECG v2",
@@ -13,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${robotoFlex.className} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
