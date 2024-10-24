@@ -1,4 +1,4 @@
 {
   "css.lint.unknownAtRules": "ignore",
-  "cSpell.words": ["clsx", "heroicons", "O'Keefe", "okeefe", "sidenav", "tailwindcss"]
+  "cSpell.words": ["clsx", "heroicons", "O'Keefe", "okeefe", "Qbank", "sidenav", "tailwindcss", "typegen"]
 }
