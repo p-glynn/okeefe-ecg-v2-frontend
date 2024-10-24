@@ -28,6 +28,15 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# Turbo
+.turbo
+
+# Build Outputs
+.next/
+out/
+build
+dist
+
 # vercel
 .vercel
 
