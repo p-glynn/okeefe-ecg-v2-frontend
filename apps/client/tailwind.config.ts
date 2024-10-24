@@ -20,6 +20,10 @@ const config: Config = {
         },
       },
     },
+    colors: {
+      'my-blue': '#24438e',
+      'my-dark-blue': '#133283',
+    },
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require('@tailwindcss/forms')],
