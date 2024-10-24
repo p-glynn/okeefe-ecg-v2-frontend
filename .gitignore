@@ -13,9 +13,6 @@
 /.next/
 /out/
 
-# production
-/build
-
 # misc
 .DS_Store
 *.pem
@@ -31,7 +28,7 @@ yarn-error.log*
 # Turbo
 .turbo
 
-# Build Outputs
+# build outputs
 .next/
 out/
 build
@@ -44,3 +41,7 @@ dist
 *.tsbuildinfo
 next-env.d.ts
 .env
+
+# Private
+**/input/questions
+**/output/questions
