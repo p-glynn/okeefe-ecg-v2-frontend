@@ -1,3 +1,5 @@
+import { Qbank, Angiogram, Ecg, Echo } from '../sanity/types';
+
 export type User = {
   id: string;
   name: string;
@@ -5,7 +7,4 @@ export type User = {
   password: string;
 };
 
-export type Question = {
-  _id: string;
-  title: string;
-};
+export type Question = Ecg | Qbank | Angiogram | Echo;
