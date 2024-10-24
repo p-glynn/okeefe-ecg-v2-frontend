@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        'my-blue': '#24438e',
+        'my-dark-blue': '#133283',
       },
     },
     keyframes: {
@@ -19,10 +21,6 @@ const config: Config = {
           transform: 'translateX(100%)',
         },
       },
-    },
-    colors: {
-      'my-blue': '#24438e',
-      'my-dark-blue': '#133283',
     },
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
