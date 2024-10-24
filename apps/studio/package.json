@@ -1,0 +1,48 @@
+{
+    "name": "okeefe-ecg",
+    "private": true,
+    "version": "1.0.0",
+    "main": "package.json",
+    "license": "UNLICENSED",
+    "scripts": {
+        "dev": "sanity dev",
+        "start": "sanity start",
+        "build": "sanity build",
+        "deploy": "sanity deploy",
+        "deploy-graphql": "sanity graphql deploy",
+        "preinstall": "npx only-allow pnpm"
+    },
+    "keywords": [
+        "sanity"
+    ],
+    "dependencies": {
+        "@sanity/dashboard": "^4.0.0",
+        "@sanity/vision": "^3.57.4",
+        "axios": "^1.7.7",
+        "dotenv": "^16.4.5",
+        "fast-xml-parser": "^4.5.0",
+        "ndjson": "^2.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sanity": "^3.57.4",
+        "sanity-plugin-media": "^2.3.2",
+        "styled-components": "^6.1.8"
+    },
+    "devDependencies": {
+        "@sanity/eslint-config-studio": "^4.0.0",
+        "@types/ndjson": "^2.0.4",
+        "@types/react": "^18.0.25",
+        "eslint": "^8.6.0",
+        "prettier": "^3.0.2",
+        "tsx": "^4.19.1",
+        "typescript": "^5.1.6"
+    },
+    "prettier": {
+        "semi": true,
+        "printWidth": 120,
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "bracketSpacing": false,
+        "singleQuote": true
+    }
+}
