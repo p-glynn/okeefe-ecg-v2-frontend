@@ -7,15 +7,15 @@ import { structure } from './structure';
 
 export default defineConfig({
   name: 'default',
-  title: "O'Keefe ECG",
+  title: "O'Keefe ECG v2",
 
-  projectId: '3g00hitf',
+  projectId: 'zl3yviy5',
   dataset: 'production',
 
   plugins: [
     structureTool({
       name: 'questions',
-      title: 'All Questions',
+      title: 'Questions',
       structure,
     }),
     visionTool(),
