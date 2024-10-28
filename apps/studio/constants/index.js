@@ -6,8 +6,6 @@ const imageProperties = [
   'question_ecg_image_5',
 ];
 
-export const foo = ['bar'];
-
 const markedImageProperties = [
   'question_ecg_image_marked',
   'question_ecg_image_marked_2',
