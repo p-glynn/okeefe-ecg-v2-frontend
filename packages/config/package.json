@@ -1,5 +1,5 @@
 {
-  "name": "@okeefe-ecg-v2/config",
+  "name": "@okeefe-ecg-v2-frontend/config",
   "version": "1.0.0",
   "main": "index.js",
   "private": true

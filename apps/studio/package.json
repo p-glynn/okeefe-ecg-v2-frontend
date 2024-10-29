@@ -1,5 +1,5 @@
 {
-  "name": "@okeefe-ecg-v2/studio",
+  "name": "@okeefe-ecg-v2-frontend/studio",
   "version": "1.0.0",
   "private": true,
   "scripts": {
