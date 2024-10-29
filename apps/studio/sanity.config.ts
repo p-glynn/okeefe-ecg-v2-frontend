@@ -15,7 +15,7 @@ export default defineConfig({
   plugins: [
     structureTool({
       name: 'questions',
-      title: 'All_Questions',
+      title: 'All Questions',
       structure,
     }),
     visionTool(),
