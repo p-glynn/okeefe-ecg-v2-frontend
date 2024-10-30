@@ -57,9 +57,6 @@ importers:
 
   apps/client:
     dependencies:
-      '@okeefe-ecg-v2-frontend/config-typescript':
-        specifier: workspace:*
-        version: link:../../packages/config-typescript
       '@sanity/image-url':
         specifier: ^1.0.2
         version: 1.0.2
@@ -91,6 +88,9 @@ importers:
       '@heroicons/react':
         specifier: ^2.1.5
         version: 2.1.5(react@18.3.1)
+      '@okeefe-ecg-v2-frontend/config-typescript':
+        specifier: workspace:*
+        version: link:../../packages/config-typescript
       '@tailwindcss/forms':
         specifier: ^0.5.9
         version: 0.5.9(tailwindcss@3.4.14)
@@ -137,6 +137,9 @@ importers:
         specifier: ^6.1.8
         version: 6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
+      '@okeefe-ecg-v2-frontend/config-typescript':
+        specifier: workspace:*
+        version: link:../../packages/config-typescript
       '@sanity/eslint-config-studio':
         specifier: ^4.0.0
         version: 4.0.0(eslint@9.13.0(jiti@1.21.6))(typescript@5.6.3)
@@ -144,7 +147,11 @@ importers:
         specifier: ^2.0.4
         version: 2.0.4
 
-  packages/config-tailwind: {}
+  packages/config-tailwind:
+    devDependencies:
+      '@okeefe-ecg-v2-frontend/config-typescript':
+        specifier: workspace:*
+        version: link:../config-typescript
 
   packages/config-typescript: {}
 
