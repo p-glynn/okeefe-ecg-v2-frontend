@@ -25,6 +25,7 @@
     "@types/bcrypt": "^5.0.2",
     "@types/eslint__js": "^8.42.3",
     "@okeefe-ecg-v2-frontend/config-typescript": "workspace:*",
+    "@okeefe-ecg-v2-frontend/config-tailwind": "workspace:*",
     "bcrypt": "^5.1.1",
     "eslint-config-next": "^15.0.1"
   }
