@@ -1,5 +1,5 @@
 {
-  "extends": "@okeefe-ecg-v2-frontend/config-typescript",
+  "extends": "@okeefe-ecg-v2-frontend/config/tsconfig",
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"]

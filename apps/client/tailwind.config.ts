@@ -1,8 +1,8 @@
 import type { Config } from 'tailwindcss';
-import sharedConfig from '@okeefe-ecg-v2-frontend/config-tailwind';
+import base from '@okeefe-ecg-v2-frontend/config/tailwind-config';
 
 const config: Pick<Config, 'content' | 'presets'> = {
-  presets: [sharedConfig],
+  presets: [base],
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
