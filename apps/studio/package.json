@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "^4.0.0",
-    "@types/ndjson": "^2.0.4"
+    "@types/ndjson": "^2.0.4",
+    "@okeefe-ecg-v2-frontend/config-typescript": "workspace:*"
   }
 }
