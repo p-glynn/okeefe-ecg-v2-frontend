@@ -1,8 +1,7 @@
 import type { Config } from 'tailwindcss';
 
-const tailwindConfig: Config = {
-  content: [],
-  plugins: [],
+// each package will be responsible for its own content
+const tailwindConfig: Omit<Config, 'content'> = {
   theme: {
     extend: {
       colors: {
