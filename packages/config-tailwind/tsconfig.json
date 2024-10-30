@@ -1,0 +1,5 @@
+{
+  "extends": "@okeefe-ecg-v2-frontend/config-typescript",
+  "include": ["*"],
+  "exclude": ["node_modules"]
+}
