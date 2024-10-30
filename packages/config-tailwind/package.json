@@ -1,0 +1,9 @@
+{
+  "name": "@okeefe-ecg-v2-frontend/config-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "exports": {
+    "./tailwind-config": "./tailwind.config.ts"
+  }
+}
