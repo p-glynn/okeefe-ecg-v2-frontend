@@ -1,18 +1,13 @@
 {
-    "compilerOptions": {
-        "target": "ES2017",
-        "lib": ["dom", "dom.iterable", "esnext"],
-        "allowJs": true,
-        "skipLibCheck": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
-        "module": "Preserve",
-        "moduleDetection": "force",
-        "isolatedModules": true,
-        "jsx": "preserve",
-        "incremental": true,
-        "outDir": "./dist" // Added output directory
+  "extends": "@okeefe-ecg-v2-frontend/config-typescript",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
     },
-    "include": ["**/*.ts", "**/*.tsx"],
-    "exclude": ["node_modules", "constants"]
+    "module": "Preserve",
+    "moduleDetection": "force",
+    "outDir": "./dist"
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "constants"]
 }
